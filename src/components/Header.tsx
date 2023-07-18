@@ -20,7 +20,7 @@ const Header = () => {
                     href={ GITHUB_ORG_URL } target="_blank"
                     rel="noopener noreferrer"
                 >
-                     AI 实验室
+                     AI Lab
                 </a>
             </p>
         </header>
