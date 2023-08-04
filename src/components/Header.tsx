@@ -21,9 +21,9 @@ const Header = () => {
                     rel="noopener noreferrer"
                 >
                      AI 实验室
-                </a>
+                </a></br>
             </p>
-            <<p>免费体验版高峰期出图慢是正常现象，请勿重复提交</p>
+            <p>免费体验版高峰期出图慢是正常现象，请勿重复提交</p>
         </header>
     );
 };
