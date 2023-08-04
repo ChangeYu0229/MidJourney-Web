@@ -40,7 +40,7 @@ export default function SystemSetting(props: Props) {
                             className="sys-edit-btn"
                         >
                             <IconEnv/>
-                            <span>点击使用快速无限版</span>
+                            <span>点击进入快速无限版</span>
                         </a>
                     ) }
                 </>
