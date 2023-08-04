@@ -23,6 +23,7 @@ const Header = () => {
                      AI 实验室
                 </a>
             </p>
+            <p>请勿重复提交</p>
         </header>
     );
 };
