@@ -63,7 +63,7 @@ const SendArea = forwardRef(({
     const description = useMemo(() => {
         const imageLength = imageSrcs.length;
         return imageLength > 0 ? imageLength>1? `Blend ${imageLength} uploaded images`:
-            `Describe 1 uploaded images` : "输入关键词";
+            `Describe 1 uploaded images` : "Enter your description here...";
     }, [imageSrcs])
 
     const inDescriptionOrBlend = useMemo(() => {
@@ -117,7 +117,7 @@ const SendArea = forwardRef(({
                 disabled={ifDisabled}
                 className="gen-slate-btn"
               >
-                提交
+                Send
               </button>
               <button
                 title="Clear"
